@@ -1,0 +1,38 @@
+body{
+    background-color: green;
+}
+
+.title{
+    display: flex;
+}
+
+.id{
+    padding-left: 20px;
+}
+
+#mostrar {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    padding-left: 7px;
+    background-color: #398be2;
+    color: white;
+    max-width: 312px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.overgrow:hover + #mostrar {
+    opacity: 1;
+}
+
+.overgrow{
+    max-width: 50px;
+}
+
+.interrogation-div{
+    display: flex;
+}
+
+.interrogation{
+    width: 15px;
+}
